@@ -26,8 +26,8 @@ function setGroceryListTitle(x) {
 
 // Code Here
 function addItem(item){
-    const total = groceries.push('item')
-    return displayData()
+    const groceries = ['apples', 'bread', 'milk', 'item']
+    displayData('item')
 }
 
 
@@ -36,6 +36,10 @@ function addItem(item){
 //Create a function called removeItem that takes in one parmater called index. Inside of the function remove the item from the groceries array above using splice. Invoke the displayData() function again.
 
 // Code Here
+function removeItem(index) {
+    groceries.splice
+    displayData('item')
+}
 
 
 
