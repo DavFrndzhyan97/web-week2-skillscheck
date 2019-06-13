@@ -82,18 +82,23 @@ const middleNums = [2, 3, 4]
 
 //Code Here
 
-
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 // Code here
+function bigOrSmall(arr){
+	
+}
 
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
+function arrayReverser(arr) {
+	const reversed = []
+}
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
@@ -106,24 +111,32 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
+myNumbers.map
+const doubled = [6, 110, 1576, 4, 2]
 
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
 // Code Here
+myNumbers.filter
+const filtered = [788]
 
 //////////////////PROBLEM 16////////////////////
 
 // Next up, reduce to get the total of the array. call the new array 'total'
 
 // Code Here
+myNumbers.reduce
+const total = 849
 
 //////////////////PROBLEM 17////////////////////
 
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
 // Code Here
+myNumbers.forEach
+const myNumbersIndex = [0, 1, 2, 3, 4]
 
 //////////////////PROBLEM 18////////////////////
 
@@ -131,6 +144,8 @@ const myNumbers = [3, 55, 788, 2, 1]
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+notGeorge.map
+const forTheLoveOfGeorge = ['George', 'George', 'George', 'George', 'George', 'George']
 
 //////////////////PROBLEM 19////////////////////
 
@@ -145,9 +160,13 @@ const people = [
 ]
 
 // Code Here
+people.filter
+const enemies =  [ Object({ name: 'Bart', friend: false, awesomeLevel: 3 }), Object({ name: 'Stephanie', friend: false, awesomeLevel: 6 }) ]
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
+people.reduce
+const totallyAwesome = 44
